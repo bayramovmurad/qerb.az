@@ -4,15 +4,15 @@ export const navLinks = [
         label: "Ana Sehife",
     },
     {
-        route: "/məqalələr",
+        route: "/meqaleler",
         label: "Məqalələr",
     },
     {
-        route: "/haqqımızda",
+        route: "/hqqimizda",
         label: "Haqqımızda",
     },
     {
-        route: "/əlaqə",
+        route: "/elaqe",
         label: "Əlaqə",
     },
 ];

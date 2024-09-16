@@ -3,10 +3,10 @@ import {useEffect, useState} from "react";
 import {
     FaSquareXTwitter, FaSquareInstagram, FaSquareSnapchat
 } from "react-icons/fa6";
+import {FaFacebookSquare} from "react-icons/fa";
 
 import {CgClose, CgMenuGridO} from "react-icons/cg";
 import Link from "next/link";
-import {FaFacebookSquare} from "react-icons/fa";
 import {navLinks} from "@/constants";
 import Route from "@/components/ui/Route";
 import Button from "@/components/ui/Button";

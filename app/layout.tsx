@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import {Inter, Roboto} from 'next/font/google'
 import './globals.css'
 import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 const roboto = Roboto({ subsets: ['latin'], weight: ["100","400","700","900"] })
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={`${roboto.className} overflow-x-hidden bg-light w-[85%] mx-auto`}>
       <Navbar/>
       {children}
+      <Footer/>
       </body>
     </html>
   )
