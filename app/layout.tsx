@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} overflow-x-hidden bg-light`}>
+      <body className={`${roboto.className} overflow-x-hidden bg-light w-[85%] mx-auto`}>
       <Navbar/>
       {children}
       </body>

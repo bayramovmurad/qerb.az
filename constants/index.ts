@@ -1,19 +1,19 @@
 export const navLinks = [
     {
         route: "/",
-        label: "Home",
+        label: "Ana Sehife",
     },
     {
-        route: "/posts",
-        label: "Posts",
+        route: "/məqalələr",
+        label: "Məqalələr",
     },
     {
-        route: "/about",
-        label: "About",
+        route: "/haqqımızda",
+        label: "Haqqımızda",
     },
     {
-        route: "/contact",
-        label: "Contact",
+        route: "/əlaqə",
+        label: "Əlaqə",
     },
 ];
 

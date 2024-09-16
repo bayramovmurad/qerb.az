@@ -12,7 +12,7 @@ const Button = ({text, onClick, ariaLabel}: buttonProps) => {
         <button
             onClick={onClick}
             aria-label={ariaLabel}
-            className="bg-darkBlue py-1 px-4 rounded-lg hover:bg-darkBlue/80 duration-500">
+            className="bg-darkBlue py-1 px-3 rounded-lg text-light hover:bg-darkBlue/80 duration-500">
             {text}
         </button>
     )
