@@ -1,5 +1,3 @@
-import clsx from "clsx";
-
 interface buttonProps {
     text: string;
     onClick?: () => void;
