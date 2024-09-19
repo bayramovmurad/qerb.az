@@ -1,9 +1,10 @@
+import Hero from "@/components/shared/Hero";
 
 const Home  = () => {
     return (
-        <div className="bg-red-500">
-            App
-        </div>
+        <>
+        <Hero/>
+        </>
     )
 }
 
