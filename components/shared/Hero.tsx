@@ -26,23 +26,30 @@ const Hero = () => {
                                       {post.publishDate}
                                   </span>
                           </div>
-                          <div className="relative max-h-[600px] overflow-hidden shadow-xl">
-                              <img
-                                  src={post.image_path}
-                                  alt={`image for ${post.title}`}
-                              />
-                          </div>
+                          <Link href={
+                              {pathname:`meqaleler/${post.id}`,
+                              query: {...post},
+                          }}>
+                              <div className="relative max-h-[600px] overflow-hidden shadow-xl">
+                                  <img
+                                      src={post.image_path}
+                                      alt={`image for ${post.title}`}
+                                  />
+                              </div>
+                          </Link>
                       </article>
-
-
                   ))
               }
               <div
-                className="grid grid-cols-3 gap-8 max-lg:grid-cols-1"
+                  className="grid grid-cols-3 gap-8 max-lg:grid-cols-1"
               >
                   {
-                      bottomFeatured.map((post,id) => (
+                      bottomFeatured.map((post, id) => (
                           <article key={id} className="flex flex-col gap-3 items-center relative">
+                              <Link href={
+                                  {pathname:`meqaleler/${post.id}`,
+                                      query: {...post},
+                                  }}>
                               <div
                                   className="relative overflow-hidden shadow-xl f-full"
                               >
@@ -53,6 +60,7 @@ const Hero = () => {
                                   />
                                   <Overlay/>
                               </div>
+                              </Link>
                               <Tag text={post.tags}/>
                               <h3 className="font-extrabold text-center uppercase text-tertiary px-5">
                                   {post.title}
