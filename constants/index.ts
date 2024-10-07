@@ -8,7 +8,7 @@ export const navLinks = [
         label: "Məqalələr",
     },
     {
-        route: "/hqqimizda",
+        route: "/haqqimizda",
         label: "Haqqımızda",
     },
     {
