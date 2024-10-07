@@ -37,7 +37,7 @@ const Navbar = () => {
                           QERB
                       </h1>
                   </Link>
-              </div>
+              </div> 
 
               <ul className="flex items-center justify-center lg:gap-8 gap-4 max-md:hidden">
                   {navLinks.map((link, index) => {

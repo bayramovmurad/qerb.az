@@ -8,9 +8,10 @@ import Link from "next/link";
 
 const BlogCard = ({post}) => {
     return (
-        <article className="relative rounded-lg overflow-hidden">
+        <article className="relative  rounded-lg overflow-hidden">
             <div className="w-[1000px] h-[450px] relative">
                 <Image
+
                     src={post.image_path}
                     alt={`Image for ${post.title}`}
                     className="object-cover"
@@ -42,3 +43,4 @@ const BlogCard = ({post}) => {
 };
 
 export default BlogCard;
+
